@@ -1,6 +1,15 @@
-Pre entrega QA - Constancia de avances en el curso
+ENTREGA FINAL AUTOMATION TESTING QA 
 
-Tecnologias utilizadas: python - pytest - selenium web driver - git
+Proyecto de automatización desarrollado utilizando python como lenguaje principal junto a pruebas UI (Selenium) aplicando el patron de diseño POM. 
+
+Tecnologias utilizadas: 
+
+    Python  ->  Lenguaje principal de desarrollo
+    Pytest  ->  Framework para la ejecución, gestión de tests y asserts
+    Selenium WebDriver  ->  Herramienta de automatización de interacciones con el navegador(UI)
+    Requests    ->  Libreria para testear conexion HTTPS y API
+    HTML Report ->  Generación de reportes
+    POM ->  Patron de diseño implementado
 
 Los test son los siguientes:
 
