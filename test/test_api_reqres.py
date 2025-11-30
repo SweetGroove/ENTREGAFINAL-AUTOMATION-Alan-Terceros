@@ -6,11 +6,7 @@ BASE_URL = "https://jsonplaceholder.typicode.com"
 
 # --- CASO DE PRUEBA 1: GET (Éxito) ---
 def test_get_all_posts_success():
-    """
-    Verifica el método GET (Obtener todos los posts).
-    - Espera código 200 (OK).
-    - Valida la estructura JSON y que la lista no esté vacía.
-    """
+   
     endpoint = f"{BASE_URL}/posts"
     response = requests.get(endpoint)
 
@@ -32,11 +28,7 @@ def test_get_all_posts_success():
 
 # --- CASO DE PRUEBA 2: POST (Creación) ---
 def test_post_create_post_success():
-    """
-    Verifica el método POST (Crear un nuevo post).
-    - Espera código 201 (Created).
-    - Valida que los datos enviados sean reflejados en la respuesta.
-    """
+    
     endpoint = f"{BASE_URL}/posts"
     payload = {
         "title": "Mi Nuevo Post Automatizado",

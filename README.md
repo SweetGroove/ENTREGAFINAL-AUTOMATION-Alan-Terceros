@@ -10,3 +10,14 @@ Los test son los siguientes:
     3.  Prueba de que hay items cargados en el carrito
 
     Para ejecutar: pytest -v
+
+ Para Testear API
+   Ejecutar: pytest test_api_reqres.py   
+
+El proyecto está estructurado de la siguiente manera:
+
+    pages/: Clases del Page Object Model (Lógica de las páginas web).
+    tests/: Scripts de prueba (UI y API).
+    utils/: Herramientas comunes y cargadores de datos.
+    data/: Archivos JSON con datos de prueba (Data Driven Testing).
+    reports/: Resultados de las ejecuciones (HTML y Screenshots).
