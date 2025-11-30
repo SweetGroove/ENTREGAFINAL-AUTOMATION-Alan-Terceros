@@ -3,7 +3,7 @@ from page.login_page import LoginPage
 from page.inventory_page import InventoryPage
 from page.cart_page import CartPage
 from page.checkout_page import CheckoutPage
-from page.checkout_Complete_page import CheckoutCompletePage
+from page.checkout_complete_page import CheckoutCompletePage
 import time
 
 def test_complete_purchase_flow(driver):
