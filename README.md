@@ -11,16 +11,9 @@ Tecnologias utilizadas:
     HTML Report ->  Generación de reportes
     POM ->  Patron de diseño implementado
 
-Los test son los siguientes:
-
-    1.  Automatización de login
-    2.  Verificación del título de la página de inventario sea el correcto
-        Comprobación de existencia de productos visibles en la página
-    3.  Prueba de que hay items cargados en el carrito
-
     Para ejecutar: pytest -v
 
- Para Testear API
+Para Testear API
    Ejecutar: pytest test_api_reqres.py   
 
 El proyecto está estructurado de la siguiente manera:
